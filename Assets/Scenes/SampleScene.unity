@@ -422,27 +422,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1a5c629f84cd0a544a3dc2f178aa5991, type: 3}
   m_PrefabInstance: {fileID: 1433178155}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &949885623
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 949885619}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e7befc0185c882b4e89eea5b43f0669f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1410370907
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,13 +587,53 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1a5c629f84cd0a544a3dc2f178aa5991, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 949885623}
+      addedObject: {fileID: 1433178157}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1a5c629f84cd0a544a3dc2f178aa5991, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1433178158}
   m_SourcePrefab: {fileID: 100100000, guid: 1a5c629f84cd0a544a3dc2f178aa5991, type: 3}
 --- !u!4 &1433178156 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1a5c629f84cd0a544a3dc2f178aa5991, type: 3}
   m_PrefabInstance: {fileID: 1433178155}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1433178157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949885619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39eeb2574f960434bae628fb7e991e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 2
+  runSpeed: 5
+  jumpForce: 5
+  gravity: -9.81
+--- !u!95 &1433178158
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949885619}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c6a15f5c4d391464eba58948526757ef, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1592245575
 GameObject:
   m_ObjectHideFlags: 0
